@@ -1,5 +1,6 @@
 # Chaturbate Stream Scraper
 <img width="825" height="488" alt="image" src="https://github.com/user-attachments/assets/549c833c-747e-4852-bf43-c8f37fa680ef" />
+
 This tool can automatically scrape chaturbate streams to grab the .ts stream files.
 Originally I used OBS to record streams, which is painful and stupid on so many levels, plus is limited to 1 stream at any given time. So I got this script made with ChatGPT and it works wonders and figured I'd share.
 From my testing, it has been able to scrape 40 streams at the same time, but I would not be surprised if they timed you out or something, though it hasn't happened to me yet, despite having downloaded 500GB over a single night.
