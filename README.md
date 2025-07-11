@@ -25,6 +25,8 @@ It also has options to scan, segments for corruption, but that requires having a
 
 Checking for corruption isn't technically necessary, but it might provide some useful information.
 
+With the RAM version of the script, if you plan to end a stream capture, don't just quit the GUI, unless you don't care about the information files. To properly save them, stop the downloads, wait for them to stop fully then close the GUI.
+
 I will also have a Telegram channel where I occasionally post streams: https://t.me/ChaturbateScraper
 
 
