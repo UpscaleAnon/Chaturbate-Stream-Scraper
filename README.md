@@ -27,6 +27,8 @@ Checking for corruption isn't technically necessary, but it might provide some u
 
 With the RAM version of the script, if you plan to end a stream capture, don't just quit the GUI, unless you don't care about the information files. To properly save them, stop the downloads, wait for them to stop fully then close the GUI.
 
+The RAM script will occasionally write small MKV files that consist of broken segments only if a streamer has connection issues. If you want, you could probably use Everything by VoidTools, check for any .mkv file below 5MB or something and mass delete them.
+
 I will also have a Telegram channel where I occasionally post streams: https://t.me/ChaturbateScraper
 
 
