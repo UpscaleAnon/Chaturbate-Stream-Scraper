@@ -50,3 +50,16 @@ But feel free to re-encode yourself if you want to.
 Q: How do I merge the videos?
 
 A: Either use the RAM version of the script that outputs an MKV directly, or wait until I publish the concatenating script for the individual .ts files.
+
+Q: How do I get around 429 errors or other rate limits?
+
+A: Package the script as 2 EXEs with different name then use a VPN with split tunneling to have one run through VPN and other through main IP.
+Though generally this is only really an issue if you go crazy and download 50+ streams at the same time. I'm not sure on exact limit, but I've encountered it at close to 60 streams.
+
+
+# TODO
+1: Improve TempSegment folder by having subfolder dedicated to each streamer to avoid potential issues
+2: Build EXE or make a script to build EXE, or both
+3: Add a remove button to rightclick context menu
+4: Add optional filesize limit to split videos
+5: Allow for input of username instead of demanding full URL
