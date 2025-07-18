@@ -59,7 +59,11 @@ Though generally this is only really an issue if you go crazy and download 50+ s
 
 # TODO
 1: Improve TempSegment folder by having subfolder dedicated to each streamer to avoid potential issues
+
 2: Build EXE or make a script to build EXE, or both
+
 3: Add a remove button to rightclick context menu
+
 4: Add optional filesize limit to split videos
+
 5: Allow for input of username instead of demanding full URL
