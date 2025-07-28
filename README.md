@@ -1,5 +1,5 @@
 # Chaturbate Stream Scraper
-<img width="825" height="488" alt="image" src="https://github.com/user-attachments/assets/549c833c-747e-4852-bf43-c8f37fa680ef" />
+<img width="842" height="382" alt="image" src="https://github.com/user-attachments/assets/f066d17c-ea07-48e9-bc85-bc0a03647792" />
 
 This tool can automatically scrape chaturbate streams to grab the .ts stream files.
 
