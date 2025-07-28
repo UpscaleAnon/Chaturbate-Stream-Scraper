@@ -56,6 +56,10 @@ Q: How do I get around 429 errors or other rate limits?
 A: Package the script as 2 EXEs with different name then use a VPN with split tunneling to have one run through VPN and other through main IP.
 Though generally this is only really an issue if you go crazy and download 50+ streams at the same time. I'm not sure on exact limit, but I've encountered it at close to 60 streams.
 
+Q: My CPU can't take scraping as many streams as you
+
+A: Either live with it, or disable the corruption check. My Ryzen 9 9950X3D gets hammered when I download close to 60 streams due to the corruption checker.
+
 
 # TODO
 1: Improve TempSegment folder by having subfolder dedicated to each streamer to avoid potential issues (Ready for next version)
