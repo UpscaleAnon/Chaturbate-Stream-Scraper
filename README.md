@@ -1,5 +1,6 @@
 # Chaturbate Stream Scraper
-<img width="842" height="382" alt="image" src="https://github.com/user-attachments/assets/f066d17c-ea07-48e9-bc85-bc0a03647792" />
+<img width="842" height="599" alt="image" src="https://github.com/user-attachments/assets/74372a60-fea5-4d32-9771-88b36c821cbe" />
+
 
 This tool can automatically scrape chaturbate streams to grab the .ts stream files.
 
@@ -60,6 +61,10 @@ Q: My CPU can't take scraping as many streams as you
 
 A: Either live with it, or disable the corruption check. My Ryzen 9 9950X3D gets hammered when I download close to 60 streams due to the corruption checker.
 
+Q: I'm getting retry timeouts a lot
+
+A: Don't set retry interval to anything higher than 5. It'll spend too long to check for a segment, causing it to time out. Maybe try lowering it if you're experiencing retry timeouts or increase retry timeout from 30 seconds to 60.
+
 
 # TODO
 1: Improve TempSegment folder by having subfolder dedicated to each streamer to avoid potential issues (Ready for next version)
@@ -72,8 +77,6 @@ A: Either live with it, or disable the corruption check. My Ryzen 9 9950X3D gets
 
 5: Allow for input of username instead of demanding full URL (Ready for next version)
 
-6: Adjust settings for infinite, so it doesn't just spam servers constantly
+6: Customizeable doubleclick setting in GUI that can be set to either quick retry, open folder, start, stop, toggle infinite or remove. (Ready for next version)
 
-7: Customizeable doubleclick setting in GUI that can be set to either quick retry, open folder, start, stop, toggle infinite or remove.
-
-8: Quicksettings in the GUI for retry timer, retry amount, retry timeout, infinite retry pause timer, filesize limit and corruption check which stores those values in a config.txt
+7: Quicksettings in the GUI for retry timer, retry amount, retry timeout, infinite retry pause timer, filesize limit and corruption check which stores those values in a config.txt (Ready for next version)
