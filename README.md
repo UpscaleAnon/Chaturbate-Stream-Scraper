@@ -71,3 +71,7 @@ A: Either live with it, or disable the corruption check. My Ryzen 9 9950X3D gets
 4: Add optional filesize limit to split videos (Ready I think? Need to test)
 
 5: Allow for input of username instead of demanding full URL (Ready for next version)
+
+6: Adjust settings for infinite, so it doesn't just spam servers constantly
+
+7: Double click for quick single retry? Or maybe customizeable doubleclick within the GUI?
