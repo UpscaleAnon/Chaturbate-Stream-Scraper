@@ -74,4 +74,6 @@ A: Either live with it, or disable the corruption check. My Ryzen 9 9950X3D gets
 
 6: Adjust settings for infinite, so it doesn't just spam servers constantly
 
-7: Double click for quick single retry? Or maybe customizeable doubleclick within the GUI?
+7: Customizeable doubleclick setting in GUI that can be set to either quick retry, open folder, start, stop, toggle infinite or remove.
+
+8: Quicksettings in the GUI for retry timer, retry amount, retry timeout, infinite retry pause timer, filesize limit and corruption check which stores those values in a config.txt
