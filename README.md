@@ -80,3 +80,5 @@ A: Don't set retry interval to anything higher than 5. It'll spend too long to c
 6: Customizeable doubleclick setting in GUI that can be set to either quick retry, open folder, start, stop, toggle infinite or remove. (Ready for next version)
 
 7: Quicksettings in the GUI for retry timer, retry amount, retry timeout, infinite retry pause timer, filesize limit and corruption check which stores those values in a config.txt (Ready for next version)
+
+8: Make it save under streamer name folder rather than in subfolder of that with timestamp as it's redundant with filenames already containing timestamp
