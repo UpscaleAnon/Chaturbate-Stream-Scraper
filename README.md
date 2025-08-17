@@ -84,3 +84,5 @@ A: Don't set retry interval to anything higher than 5. It'll spend too long to c
 8: Make it save under streamer name folder rather than in subfolder of that with timestamp as it's redundant with filenames already containing timestamp
 
 9: Fix infinite as task sometimes stops for no reason despite infinite being toggled on (Nevermind, just a visual glitch or something. It says "Stopped" but then continues on normally after infinite pause timer has run once)
+
+10: Adjust it so that if a stream fails, it still depends on "Max Retries" for retrying, rather than if "Quick Retry" has been used where it changes it to 1. They should be independent.
